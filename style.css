@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-size: 16px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+
+.form-section{
+    width: 100%;
+    background: url(img/picture.jpg) center center no-repeat ;
+    background-size:cover;
+    height: 100vh;
+
+}
+
+
+.container{
+    width: 1140px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.form-inside{
+    width: 60%;
+   display: flex;
+
+
+
+   
+    background-color: rgb(54, 79, 206);
+    opacity: 0.90;
+    padding: 20px;
+    border-radius: 10px 2px;
+
+
+}
+
+
+.left{
+    background:url(img/photo.work.png) center center no-repeat;
+    background-size: contain;
+    flex-basis: 50%;
+}
+
+
+.right{
+    flex-basis: 50%;
+}
+
+h2{
+    text-align: center;
+    margin: 10px 0 20px ;
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+
+ span a{
+    text-decoration: none;
+    color: white;
+}
+
+
+input,select,textarea{
+    width:100%;
+    padding: 8px 4px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.agreebox input{
+    width: auto;
+}
+
+
+.submit{
+    margin: 15px 0 10px;
+
+}
+.submit input{
+    background: #cc6332;
+    border-radius: 1px solid #9932cc;
+    color: white;
+    font-size:  15px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-radius: 0px 5px;
+}
+
+.submit input:hover{
+    background: rgb(95, 30, 216);
+    color: white;
+    transition: 0.4s;
+}
